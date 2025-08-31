@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: AndersonGrotesk;
+            src: url(fonts/AndersonGrotesk.otf);
+        }
+        *{margin: 0; padding: 0; font-family: AndersonGrotesk;}
+
+        header{
+            background-color: black;
+        }
+
+        nav{
+            padding: 20px;
+            color: white;
+            font-size: 40px;
+        }
+
+        .back-to-main-page{
+            margin-top: 2px;
+
+        }
+
+        .content{
+            margin: 2px;
+            padding: 10px;
+            border: 1px solid;
+            display: inline-block;
+            font-size: 20px;
+            transition: 0.15s
+        }
+
+        .content:hover{
+            background-color: rgb(209, 209, 209);
+        }
+
+        .back-to-main-page a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .container{
+            margin: 20px;
+        }
+
+        .container a{
+            transition: 0.15s;
+        }
+
+        .container a:hover{
+            text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.326);
+        }
+
+        .tgl{
+            color: gray;
+        }
+        .content-article{
+
+        }
+    </style>
+</head>
+<body>
+    <Header>
+        <nav>
+            <h1>blog; S18K</h1>
+        </nav>
+    </Header>
+
+    <div class="back-to-main-page">
+        <div class="content">
+            <p><a href="index.html">back to main page</a></p>
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="content-article"><a href="blog/between-me-and-social-anxiety.html">
+            <p style="font-size: 20px;">stuck on my room for almost 5 years as a loser.</p>
+            <p class="tgl">31 Aug 2025</p>
+        </div>
+        </a>
+    </div>
+
+    <div class="container">
+        <div class="content-article"><a href="blog/between-me-and-social-anxiety.html">
+            <p style="font-size: 20px;">between me and Social Anxiety</p>
+            <p class="tgl">31 Aug 2025</p>
+        </div>
+        </a>
+    </div>
+</body>
+</html>
